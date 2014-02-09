@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9f9c4b76642748d69324e231648de917" Name="Diagram1" ZoomLevel="94">
+        <EntityTypeShape EntityType="OnlineBookStoreModel1.Customer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineBookStoreModel1.Admin" Width="1.5" PointX="0.5" PointY="2.75" />
+        <EntityTypeShape EntityType="OnlineBookStoreModel1.Magzine" Width="1.5" PointX="7.4457991921556168" PointY="20.503022993217698" />
+        <EntityTypeShape EntityType="OnlineBookStoreModel1.NewsLetter" Width="1.5" PointX="2.7232099001869603" PointY="31.563398405706231" />
+        <EntityTypeShape EntityType="OnlineBookStoreModel1.TextBook" Width="1.5" PointX="8.5577985814576021" PointY="29.394159449913612" />
+        <EntityTypeShape EntityType="OnlineBookStoreModel1.CookBook" Width="1.5" PointX="10.825476055417898" PointY="2.5216711324274872" />
+        <EntityTypeShape EntityType="OnlineBookStoreModel1.ShoppingCart" Width="1.5" PointX="6.9756326838283016" PointY="1.5728634156160353" />
+        <EntityTypeShape EntityType="OnlineBookStoreModel1.Report" Width="1.5" PointX="4.9938477058866289" PointY="11.923308184334687" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

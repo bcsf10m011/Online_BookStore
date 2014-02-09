@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+
+    <header>
+			<div class="main">
+				<div class="wrapper">
+					<h1>
+						<a href="~/home/index">Online Book Store</a>
+						<strong>Naila Saad</strong>
+					</h1>
+					<nav>
+						<ul class="menu">
+							<li><a class="active" href="~/home/index">Home</a></li>
+							<li><a href="~/customer/textgallery">Books Gallery</a></li>
+							<li><a href="~/customer/ViewCart">View Cart</a></li>
+							<li><a href="~/customer/signout">Sign Out</a></li>
+							<li><a href="~/customer/contacts">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+			<</div><!--<div class="ic">More Website Templates TemplateMonster.com - October 31, 2011!</div>-->
+		</header>
+
+
+    @RenderBody()
+
+      <footer>
+			<div class="main">
+				<div class="wrapper border-bot2 margin-bot">
+					<article class="fcol-1">
+						<div class="indent-left">
+							<h3 class="color-1">Stay Connected</h3>
+							<ul class="list-services">
+								<li><a href="https://www.facebook.com/Punjab.University.College.of.IT">Facebook</a></li>
+								<li><a class="it-2" href="https://www.facebook.com/Punjab.University.College.of.IT">Twitter</a></li>
+								<li class="last-item"><a class="it-3" href="https://www.facebook.com/Punjab.University.College.of.IT">Linked In</a></li>
+								
+							</ul>
+						</div>
+					</article>
+					<article class="fcol-2">
+						<h3 class="color-1">Vision</h3>
+						<p class="p3">We intend to provide our customers with the best online shopping experience from beginning to end, with a smart, searchable website, easy-to-follow instructions, clear and secure payment methods, and fast, quality delivery</p>
+						
+					</article>
+					
+				</div>
+				
+			</div>
+		</footer>
+
+
+
